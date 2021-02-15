@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test responsive menu</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="menu">
+          <div class="burger">
+            <span class="burger__line"></span>
+          </div>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Статьи</a>
+              <picture>
+                <source
+                  srcset="./assets/images/down-black.svg"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  class="menu__item-img"
+                  src="./assets/images/down.svg"
+                  alt="down"
+                />
+              </picture>
+              <ul class="sub-menu">
+                <li class="sub-menu__item">
+                  <a class="sub-menu__link" href="#">Интересное</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="sub-menu__link" href="#">Технологии</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="sub-menu__link" href="#">Здоровье</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="sub-menu__link" href="#">Фото</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Видео</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Мудрость</a>
+              <picture>
+                <source
+                  srcset="./assets/images/down-black.svg"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  class="menu__item-img"
+                  src="./assets/images/down.svg"
+                  alt="down"
+                />
+              </picture>
+              <ul class="sub-menu">
+                <li class="sub-menu__item">
+                  <a class="sub-menu__link" href="#">Интересное</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="sub-menu__link" href="#">Технологии</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="sub-menu__link" href="#">Здоровье</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="sub-menu__link" href="#">Фото</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">SEO</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Портфолио</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Пресс-релизы</a>
+            </li>
+          </ul>
+          <div class="menu__right">
+            <div class="search">
+              <input type="text" class="search__input" placeholder="search" />
+              <button class="search__btn">
+                <img
+                  class="search__img"
+                  src="./assets/images/magnifier-glass.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="lang">
+              <ul class="lang-list">
+                <li class="lang-item lang-active"><a href="#">EN</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
